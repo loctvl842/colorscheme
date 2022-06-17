@@ -23,6 +23,7 @@ local colors = {
 	expander = "#787c99",
 	git_modified = "#e2c08d",
 	git_untracked = "#449dab",
+	select = "#20222C",
 
 	alt_bg = "#252525",
 	accent = "#BBBBBB",
