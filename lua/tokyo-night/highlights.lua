@@ -14,7 +14,7 @@ local highlights = {
 	WildMenu = { fg = C.fg, bg = C.ui2_blue },
 	CursorLineNr = { fg = C.light_gray, style = "bold" },
 	Comment = { fg = C.gray, style = "italic" },
-	Folded = { fg = C.accent, bg = C.alt_bg },
+	Folded = { fg = C.accent, bg = C.folded },
 	FoldColumn = { fg = C.accent, bg = C.alt_bg },
 	LineNr = { fg = C.gray },
 	FloatBorder = { fg = C.gray, bg = C.dark },

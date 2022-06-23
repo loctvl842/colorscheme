@@ -2,7 +2,7 @@ local colors = {
 	bufferlineSelectedfg = "#A9B1D6",
 	bufferlineUnSelectedfg = "#787C99",
 	modifiedUnselected = "#969696",
-	bufferlineBg = "#191a1a",
+	bufferlineBg = "#161721",
 	gray = "#444b6a",
 	light_gray = "#c0caf5",
 	cyan = "#7dcfff",
@@ -29,6 +29,7 @@ local colors = {
 	git_untracked = "#449dab",
 	select = "#20222C",
 
+	folded = "#161721",
 	alt_bg = "#252525",
 	accent = "#BBBBBB",
 	popup_back = "#2D2D30",
