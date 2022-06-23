@@ -1,4 +1,8 @@
 local colors = {
+	bufferlineSelectedfg = "#A9B1D6",
+	bufferlineUnSelectedfg = "#787C99",
+	modifiedUnselected = "#969696",
+	bufferlineBg = "#191a1a",
 	gray = "#444b6a",
 	light_gray = "#c0caf5",
 	cyan = "#7dcfff",
@@ -65,6 +69,7 @@ local colors = {
 	ui_orange = "#E8AB53",
 	ui_purple = "#B180D7",
 	bar_bg = "#202124",
+	offset_fg = "#7982A9",
 }
 
 return colors

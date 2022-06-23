@@ -14,6 +14,7 @@ local Buffer = {
 	-- BufferInactiveMod = {fg = C.info_yellow, bg = C.alt_bg, },
 	-- BufferInactiveSign = {fg = C.gray, bg = C.alt_bg, },
 	-- BufferInactiveTarget = {fg = C.red, bg = C.alt_bg, style = "bold", },
+	BufferFill = { bg = "#ff0000" },
 }
 
 return Buffer

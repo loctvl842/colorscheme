@@ -1,6 +1,7 @@
 local highlights = {
-	Normal = { fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg },
-	SignColumn = { bg = C.bg },
+	Normal = { fg = C.fg, bg = C.bg },
+	EndOfBuffer = { fg = C.bg, bg = Config.transparent_background and "NONE" or C.bg },
+	SignColumn = { bg = Config.transparent_background and "NONE" or C.bg },
 	MsgArea = { fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg },
 	ModeMsg = { fg = C.fg, bg = C.dark },
 	MsgSeparator = { fg = C.fg, bg = C.bg },
@@ -52,7 +53,6 @@ local highlights = {
 	Substitute = { fg = C.light_gray, bg = C.search_orange },
 	MoreMsg = { fg = C.orange },
 	Question = { fg = C.orange },
-	EndOfBuffer = { fg = C.bg },
 	NonText = { fg = C.bg },
 	Variable = { fg = C.light_blue },
 	String = { fg = C.orange },
@@ -94,6 +94,7 @@ local highlights = {
 	TabLine = { fg = C.light_gray, bg = C.alt_bg },
 	TabLineSel = { fg = C.white, bg = C.alt_bg },
 	TabLineFill = { fg = C.alt_bg, bg = C.alt_bg },
+	Offset = { fg = C.accent, bg = C.tree_gray },
 }
 
 return highlights

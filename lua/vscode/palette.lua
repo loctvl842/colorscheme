@@ -1,4 +1,8 @@
 local colors = {
+	bufferlineSelectedfg = "#ffffff",
+	bufferlineUnSelectedfg = "#969696",
+	modifiedUnselected = "#969696",
+	bufferlineBg = "#2D2D2D",
 	fg = "#D4D4D4",
 	bg = "#1E1E1E",
 	alt_bg = "#252525",
