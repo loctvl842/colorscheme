@@ -35,6 +35,7 @@ local NeoTree = require("vscode.NeoTree")
 local BufferLine = require("vscode.BufferLine")
 
 local skeletons = {
+	NeoTree,
 	highlights,
 	Treesitter,
 	markdown,
@@ -57,7 +58,6 @@ local skeletons = {
 	SymbolOutline,
 	Notify,
 	Misc,
-	NeoTree,
 	BufferLine,
 }
 

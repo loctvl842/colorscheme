@@ -49,8 +49,8 @@ local colors = {
 	light_red = "#D16969",
 	yellow_orange = "#D7BA7D",
 	magenta = "#D16D9E",
-	cursor_fg = "#515052",
-	cursor_bg = "#59e1e3",
+	cursor_fg = "#202330",
+	cursor_bg = "#202330",
 	sign_add = "#587c0c",
 	sign_change = "#0c7d9d",
 	sign_delete = "#94151b",
@@ -71,6 +71,7 @@ local colors = {
 	ui_purple = "#B180D7",
 	bar_bg = "#202124",
 	offset_fg = "#7982A9",
+	term_cursor = "#00d5eb",
 }
 
 return colors

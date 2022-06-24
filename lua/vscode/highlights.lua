@@ -41,7 +41,7 @@ local highlights = {
 	Cursor = { fg = C.cursor_fg, bg = C.cursor_bg },
 	lCursor = { fg = C.cursor_fg, bg = C.cursor_bg },
 	CursorIM = { fg = C.cursor_fg, bg = C.cursor_bg },
-	TermCursor = { fg = C.cursor_fg, bg = C.cursor_bg },
+	TermCursor = { fg = C.term_cursor, bg = C.cursor_bg },
 	TermCursorNC = { fg = C.cursor_fg, bg = C.cursor_bg },
 	Conceal = { fg = C.accent },
 	Directory = { fg = C.blue },

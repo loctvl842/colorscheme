@@ -41,8 +41,8 @@ local colors = {
 	yellow_orange = "#D7BA7D",
 	purple = "#C586C0",
 	magenta = "#D16D9E",
-	cursor_fg = "#515052",
-	cursor_bg = "#59e1e3",
+	cursor_fg = "#37373d",
+	cursor_bg = "#37373d",
 	sign_add = "#587c0c",
 	sign_change = "#0c7d9d",
 	sign_delete = "#94151b",
@@ -62,6 +62,7 @@ local colors = {
 	ui_orange = "#E8AB53",
 	ui_purple = "#B180D7",
 	bar_bg = "#202124",
+	term_cursor = "#00d5eb",
 }
 
 return colors
