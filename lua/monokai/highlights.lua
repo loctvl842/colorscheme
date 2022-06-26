@@ -96,6 +96,7 @@ local highlights = {
 	TabLineSel = { fg = C.white, bg = C.alt_bg },
 	TabLineFill = { fg = C.alt_bg, bg = C.alt_bg },
 	Offset = { fg = C.accent, bg = C.neo_tree_bg },
+	illuminateWord = { bg = C.illuminate },
 }
 
 return highlights

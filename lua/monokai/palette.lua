@@ -29,6 +29,7 @@ local colors = {
 	neo_tree_dir_icon = "#90A4AE",
 	neo_tree_expander = "#C0C0C0",
 	neo_tree_root_bg = "#272822",
+	illuminate = "#333532",
 
 	renamer_border = "#75715E",
 
