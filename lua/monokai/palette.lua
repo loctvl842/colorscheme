@@ -26,7 +26,7 @@ local colors = {
 	neo_tree_bg = "#1E1F1C",
 	neo_tree_cursor_line = "#414339",
 	neo_tree_dir_name = "#8C8C8C",
-	neo_tree_dir_icon = "#8D6E63",
+	neo_tree_dir_icon = "#90A4AE",
 	neo_tree_expander = "#C0C0C0",
 	neo_tree_root_bg = "#272822",
 
