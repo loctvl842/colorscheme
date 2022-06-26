@@ -1,10 +1,11 @@
 local Telescope = {
-	TelescopePromptTitle = { fg = C.light_blue },
-	TelescopePreviewTitle = { fg = C.light_blue },
-	TelescopeResultsTitle = { fg = C.light_blue },
-	TelescopeSelection = { fg = C.hint_blue },
-	TelescopeMatching = { fg = C.info_yellow, style = "bold" },
-	TelescopeBorder = { fg = C.light_blue, bg = Config.transparent_background and "NONE" or C.bg },
+	TelescopeSelection = { fg = C.white, bg = C.pmenu_sel },
+
+	TelescopePromptTitle = { fg = C.orange },
+	TelescopePreviewTitle = { fg = C.orange },
+	TelescopeResultsTitle = { fg = C.orange },
+	TelescopeMatching = { fg = C.white, style = "bold" },
+	TelescopeBorder = { fg = C.orange, bg = Config.transparent_background and "NONE" or C.bg },
 }
 
 return Telescope

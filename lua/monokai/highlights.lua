@@ -95,7 +95,7 @@ local highlights = {
 	TabLine = { fg = C.light_gray, bg = C.alt_bg },
 	TabLineSel = { fg = C.white, bg = C.alt_bg },
 	TabLineFill = { fg = C.alt_bg, bg = C.alt_bg },
-	Offset = { fg = C.accent, bg = C.tree_gray },
+	Offset = { fg = C.accent, bg = C.neo_tree_bg },
 }
 
 return highlights

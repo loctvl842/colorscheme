@@ -33,6 +33,7 @@ local Notify = require("monokai.Notify")
 local Misc = require("monokai.Misc")
 local NeoTree = require("monokai.NeoTree")
 local BufferLine = require("monokai.BufferLine")
+local Renamer = require("monokai.Renamer")
 
 local skeletons = {
 	NeoTree,
@@ -59,6 +60,7 @@ local skeletons = {
 	Notify,
 	Misc,
 	BufferLine,
+	Renamer,
 }
 
 for _, skeleton in ipairs(skeletons) do
