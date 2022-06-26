@@ -39,6 +39,8 @@ local Treesitter = {
 	pythonTSKeywordFunction = { fg = C.blue, style = "italic" },
 	pythonTSOperator = { fg = C.red },
 
+	luaTSFuncBuiltin = { fg = C.blue },
+
 	TSAnnotation = { fg = C.yellow },
 	TSAttribute = { fg = C.cyan },
 	TSType = { fg = C.cyan },
