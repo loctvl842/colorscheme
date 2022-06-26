@@ -1,7 +1,3 @@
--- Copyright (c) 2020-2021 shadmansaleh
--- MIT license, see LICENSE for more details.
--- Credit: Zoltan Dalmadi(lightline)
--- LuaFormatter off
 local colors = {
 	blue = "#569cd6",
 	green = "#6a9955",
