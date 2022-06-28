@@ -30,8 +30,8 @@ local colors = {
 	neo_tree_expander = "#C0C0C0",
 	neo_tree_root_bg = "#272822",
 	illuminate = "#333532",
-
-	renamer_border = "#75715E",
+	border = "#414339",
+	visual = "#575A5A",
 
 	modifiedUnselected = "#969696",
 	alt_bg = "#252525",

@@ -1,8 +1,8 @@
 local BufferLine = {
 	BufferLineFill = { bg = C.buffer_line_fill },
 	BufferLineBackground = { bg = C.bufferlineBg, fg = C.bufferlineUnSelectedfg },
-	BufferLineBufferSelected = { fg = C.bufferlineSelectedfg, bg = C.bg },
-	BufferLineBufferVisible = { fg = C.bufferlineSelectedfg, bg = C.bg, style = "bold,italic" },
+	BufferLineBufferSelected = { fg = C.bufferlineSelectedfg, bg = C.bg, style = "bold" },
+	BufferLineBufferVisible = { fg = C.bufferlineSelectedfg, bg = C.bg, style = "bold" },
 	BufferLineCloseButton = { fg = C.fg, bg = C.bufferlineBg },
 	BufferLineSeparator = { fg = C.buffer_line_fill, bg = C.bufferlineBg },
 	BufferLineSeparatorSelected = { fg = C.buffer_line_fill, bg = C.bg },

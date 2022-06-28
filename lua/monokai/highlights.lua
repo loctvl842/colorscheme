@@ -8,6 +8,12 @@ local highlights = {
 	Pmenu = { fg = C.white, bg = C.bg },
 	PmenuSel = { fg = C.white, bg = C.pmenu_sel },
 	PmenuThumb = { bg = C.pmenu_thumb },
+	NormalFloat = { bg = C.neo_tree_bg },
+	FloatBorder = { fg = C.border, bg = C.neo_tree_bg },
+	Visual = { bg = C.visual },
+	Offset = { fg = C.accent, bg = C.neo_tree_bg },
+	illuminatedWord = { bg = C.illuminate },
+	TermBorder = { fg = C.yellow, bg = C.bg },
 
 	MsgArea = { fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg },
 	ModeMsg = { fg = C.fg, bg = C.dark },
@@ -21,13 +27,10 @@ local highlights = {
 	Comment = { fg = C.gray, style = "italic" },
 	Folded = { fg = C.accent, bg = C.alt_bg },
 	FoldColumn = { fg = C.accent, bg = C.alt_bg },
-	FloatBorder = { fg = C.gray, bg = C.tree_gray },
 	Whitespace = { fg = C.bg },
 	VertSplit = { fg = C.cyan, bg = C.bg },
 	CursorColumn = { bg = C.dark },
 	ColorColumn = { bg = C.dark },
-	NormalFloat = { bg = C.dark },
-	Visual = { bg = C.ui_blue },
 	VisualNOS = { bg = C.alt_bg },
 	WarningMsg = { fg = C.error_red, bg = C.bg },
 	DiffAdd = { fg = C.alt_bg, bg = C.sign_add },
@@ -95,8 +98,6 @@ local highlights = {
 	TabLine = { fg = C.light_gray, bg = C.alt_bg },
 	TabLineSel = { fg = C.white, bg = C.alt_bg },
 	TabLineFill = { fg = C.alt_bg, bg = C.alt_bg },
-	Offset = { fg = C.accent, bg = C.neo_tree_bg },
-	illuminatedWord = { bg = C.illuminate },
 }
 
 return highlights
