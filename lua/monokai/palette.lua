@@ -32,6 +32,7 @@ local colors = {
 	illuminate = "#333532",
 	border = "#414339",
 	visual = "#575A5A",
+	winbarSeparator = "#CCCCCC",
 
 	modifiedUnselected = "#969696",
 	alt_bg = "#252525",

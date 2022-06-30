@@ -16,7 +16,7 @@ local Cmp = {
 	CmpItemKindProperty = { fg = C.ui4_blue },
 	CmpItemKindEnumMember = { fg = C.light_blue },
 	CmpItemKindConstant = { fg = C.ui4_blue },
-	CmpItemKindKeyword = { fg = C.fg },
+	CmpItemKindKeyword = { fg = C.ui4_blue },
 	CmpItemKindModule = { fg = C.fg },
 	CmpItemKindValue = { fg = C.fg },
 	CmpItemKindUnit = { fg = C.fg },
