@@ -33,6 +33,7 @@ local Notify = require("vscode.Notify")
 local Misc = require("vscode.Misc")
 local NeoTree = require("vscode.NeoTree")
 local BufferLine = require("vscode.BufferLine")
+local Alpha = require("vscode.Alpha")
 
 local skeletons = {
 	NeoTree,
@@ -59,6 +60,7 @@ local skeletons = {
 	Notify,
 	Misc,
 	BufferLine,
+	Alpha,
 }
 
 for _, skeleton in ipairs(skeletons) do

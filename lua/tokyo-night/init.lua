@@ -33,6 +33,7 @@ local Notify = require("tokyo-night.Notify")
 local Misc = require("tokyo-night.Misc")
 local NeoTree = require("tokyo-night.NeoTree")
 local BufferLine = require("tokyo-night.BufferLine")
+local Alpha = require("tokyo-night.Alpha")
 
 local skeletons = {
 	highlights,
@@ -59,6 +60,7 @@ local skeletons = {
 	Misc,
 	NeoTree,
 	BufferLine,
+	Alpha,
 }
 
 for _, skeleton in ipairs(skeletons) do
