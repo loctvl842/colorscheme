@@ -1,4 +1,7 @@
 local colors = {
+	indent_blankline_context_char = "#707070",
+	indent_blankline_char = "#404040",
+
 	bufferlineSelectedfg = "#ffffff",
 	bufferlineUnSelectedfg = "#969696",
 	modifiedUnselected = "#969696",

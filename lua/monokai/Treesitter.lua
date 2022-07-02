@@ -40,6 +40,8 @@ local Treesitter = {
 	pythonTSOperator = { fg = C.red },
 
 	luaTSFuncBuiltin = { fg = C.blue },
+	luaTSFunction = { fg = C.blue },
+	luaTSField = { fg = C.white },
 
 	TSAnnotation = { fg = C.yellow },
 	TSAttribute = { fg = C.cyan },
