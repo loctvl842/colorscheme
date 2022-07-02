@@ -28,6 +28,8 @@ local colors = {
 	git_modified = "#e2c08d",
 	git_untracked = "#449dab",
 	select = "#20222C",
+	indent_blanke_line_char = "#1E202E",
+	indent_blanke_line_context_char = "#363B54",
 
 	folded = "#161721",
 	alt_bg = "#252525",
