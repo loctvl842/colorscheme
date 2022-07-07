@@ -1,5 +1,5 @@
 local winbar = {
-	WinbarSeparator = { fg = C.winbarSeparator },
+	WinbarFg = { fg = C.winbar_fg },
 }
 
 return winbar

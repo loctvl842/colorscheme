@@ -31,6 +31,7 @@ local colors = {
 	indent_blankline_char = "#1E202E",
 	indent_blankline_context_char = "#363B54",
 	visual = "#282B3C",
+	winbar_fg = "#515670",
 
 	folded = "#161721",
 	alt_bg = "#252525",

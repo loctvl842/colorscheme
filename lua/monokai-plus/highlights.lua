@@ -5,7 +5,7 @@ local highlights = {
 	SignColumn = { bg = Config.transparent_background and "NONE" or C.bg },
 	LineNr = { fg = C.line_nr },
 	CursorLineNr = { fg = C.cursor_line_nr, style = "bold" },
-	Pmenu = { fg = C.white, bg = C.bg },
+	Pmenu = { fg = C.white, bg = C.pmenu },
 	PmenuSel = { fg = C.white, bg = C.pmenu_sel },
 	PmenuThumb = { bg = C.pmenu_thumb },
 	NormalFloat = { bg = C.neo_tree_bg },
