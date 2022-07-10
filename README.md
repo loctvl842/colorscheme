@@ -1,5 +1,13 @@
 NICE <3
 
-|Monokai|Tokyo Night|Vscode|
-|-|-|-|
-|![img](./images/monokai.png)|![img](./images/tokyo-night.png)|![img](./images/vscode.png)|
+`monokai`
+![img](./images/monokai.png)
+
+`monokai-plus`
+![img](./images/monokai-plus.png)
+
+`tokyo-night`
+![img](./images/tokyo-night.png)
+
+`vscode`
+![img](./images/vscode.png)
