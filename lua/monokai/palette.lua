@@ -33,6 +33,7 @@ local colors = {
 	border = "#414339",
 	visual = "#575A5A",
 	winbar_fg = "#AAABA9",
+	folded = "#353733",
 
 	modifiedUnselected = "#969696",
 	alt_bg = "#252525",

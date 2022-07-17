@@ -14,6 +14,8 @@ local highlights = {
 	Offset = { fg = C.accent, bg = C.neo_tree_bg },
 	illuminatedWord = { bg = C.illuminate },
 	TermBorder = { fg = C.yellow, bg = C.bg },
+	Folded = { fg = C.white, bg = C.folded },
+	FoldColumn = { fg = C.accent, bg = C.bg },
 
 	MsgArea = { fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg },
 	ModeMsg = { fg = C.fg, bg = C.dark },
@@ -25,8 +27,6 @@ local highlights = {
 	NormalNC = { fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg },
 	WildMenu = { fg = C.fg, bg = C.ui2_blue },
 	Comment = { fg = C.gray, style = "italic" },
-	Folded = { fg = C.accent, bg = C.alt_bg },
-	FoldColumn = { fg = C.accent, bg = C.alt_bg },
 	Whitespace = { fg = C.bg },
 	VertSplit = { fg = C.cyan, bg = C.bg },
 	CursorColumn = { bg = C.dark },

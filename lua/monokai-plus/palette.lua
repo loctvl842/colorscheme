@@ -16,6 +16,7 @@ local colors = {
 	pmenu_sel = "#094771",
 
 	border = "#3F3F3F",
+	folded = "#2F1D1C",
 
 	pmenu_thumb = "#464647",
 	green = "#B0EC38",

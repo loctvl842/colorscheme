@@ -2,6 +2,7 @@ local colors = {
 	indent_blankline_context_char = "#707070",
 	indent_blankline_char = "#404040",
 	winbar_fg = "#A9A9A9",
+	folded = "#202D39",
 
 	bufferlineSelectedfg = "#ffffff",
 	bufferlineUnSelectedfg = "#969696",
