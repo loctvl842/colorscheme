@@ -1,8 +1,8 @@
 local Whichkey = {
-	WhichKey = { fg = C.orange },
-	WhichKeySeperator = { fg = C.yellow },
-	WhichKeyGroup = { fg = C.blue },
-	WhichKeyDesc = { fg = C.blue },
+	WhichKey = { fg = C.blue },
+	WhichKeySeperator = { fg = C.black },
+	WhichKeyGroup = { fg = C.dark_red },
+	WhichKeyDesc = { fg = C.dark_red },
 	WhichKeyFloat = { bg = C.neo_tree_bg },
 }
 

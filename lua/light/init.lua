@@ -36,6 +36,7 @@ local BufferLine = require("light.BufferLine")
 local Renamer = require("light.Renamer")
 local winbar = require("light.winbar")
 local alpha = require("light.Alpha")
+local Illuminate = require("light.Illuminate")
 
 local skeletons = {
 	NeoTree,
@@ -65,6 +66,7 @@ local skeletons = {
 	Renamer,
 	winbar,
 	alpha,
+	Illuminate,
 }
 
 for _, skeleton in ipairs(skeletons) do

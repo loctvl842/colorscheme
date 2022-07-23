@@ -1,10 +1,10 @@
 local Cmp = {
-	CmpItemAbbrMatch = { fg = C.white, style = "bold" },
+	CmpItemAbbrMatch = { fg = C.match, style = "bold" },
 
 	CmpItemAbbrDeprecated = { fg = C.gray, style = "strikethrough" },
 	CmpItemAbbrMatchFuzzy = { fg = C.ui3_blue },
 	CmpItemKindFunction = { fg = C.ui_purple },
-	CmpItemKindMethod = { fg = C.ui_purple },
+	CmpItemKindMethod = { fg = C.ui5_blue },
 	CmpItemKindConstructor = { fg = C.ui_orange },
 	CmpItemKindClass = { fg = C.ui_orange },
 	CmpItemKindEnum = { fg = C.ui_orange },
